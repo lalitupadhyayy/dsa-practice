@@ -8,7 +8,7 @@ class Solution {
         // code here
         int low = 0, high = k-1;
           int sum = 0;
-          int res = 0;
+          int res = INT_MIN;
           // information of first window
           for(int i=low;i<=high;i++){
               sum = sum + arr[i];
